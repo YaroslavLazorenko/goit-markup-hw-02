@@ -16,13 +16,15 @@
     <!-- HEADER -->
     <header class="header">
       <nav class="navigation">
-        <a class="logo-link link" lang="en" href="./index.html">WebStudio</a>
+        <a class="logo-link link" lang="en" href="./index.html"
+          >Web<span class="header-logo-decor">Studio</span></a
+        >
         <ul class="menu list">
           <li class="menu-item">
             <a class="menu-link link" href="./index.html">Студия</a>
           </li>
           <li class="menu-item">
-            <a class="menu-link link" href="./portfolio.html">Портфолио</a>
+            <a class="menu-link link current-page-item" href="./portfolio.html">Портфолио</a>
           </li>
           <li class="menu-item">
             <a class="menu-link link" href="">Контакты</a>
@@ -31,149 +33,178 @@
       </nav>
       <ul class="contacts-list list">
         <li class="contacts-item">
-          <a class="mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
         </li>
         <li class="contacts-item">
-          <a class="tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+          <a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
     </header>
     <main>
       <!-- WORKS -->
-      <section>
-        <h1 hidden>Наши работы</h1>
-        <ul>
-          <li>
-            <button type="button">Все</button>
+      <section class="works">
+        <h1 class="title" hidden>Наши работы</h1>
+        <ul class="works-filter-btn-list list">
+          <li class="works-filter-btn-list-item">
+            <button class="works-filter-btn" type="button">Все</button>
           </li>
-          <li>
-            <button type="button">Веб-сайты</button>
+          <li class="works-filter-btn-list-item">
+            <button class="works-filter-btn" type="button">Веб-сайты</button>
           </li>
-          <li>
-            <button type="button">Приложения</button>
+          <li class="works-filter-btn-list-item">
+            <button class="works-filter-btn" type="button">Приложения</button>
           </li>
-          <li>
-            <button type="button">Дизайн</button>
+          <li class="works-filter-btn-list-item">
+            <button class="works-filter-btn" type="button">Дизайн</button>
           </li>
-          <li>
-            <button type="button">Маркетинг</button>
+          <li class="works-filter-btn-list-item">
+            <button class="works-filter-btn" type="button">Маркетинг</button>
           </li>
         </ul>
-        <ul>
-          <li>
-            <a href="">
+        <ul class="works-list list">
+          <li class="works-list-item">
+            <a class="works-list-link link" href="">
               <img
+                class="works-list-link-img"
                 src="./images/portfolio/project-1.jpg"
                 alt="Веб-сайт на мониторе ноутбука"
                 width="370"
                 height="294"
               />
-              <h2>Технокряк</h2>
-              <p>Веб-сайт</p>
+              <h2 class="works-list-link-title">Технокряк</h2>
+              <p class="works-list-link-description">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="works-list-item">
+            <a class="works-list-link link" href="">
               <img
+                class="works-list-link-img"
                 src="./images/portfolio/project-2.jpg"
                 alt="Два баскетболиста с мячом"
                 width="370"
                 height="294"
               />
-              <h2>Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-              <p>Дизайн</p>
+              <h2 class="works-list-link-title">
+                Постер <span lang="en">New Orlean vs Golden Star</span>
+              </h2>
+              <p class="works-list-link-description">Дизайн</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="works-list-item">
+            <a class="works-list-link link" href="">
               <img
+                class="works-list-link-img"
                 src="./images/portfolio/project-3.jpg"
                 alt="Логотип ресторана"
                 width="370"
                 height="294"
               />
-              <h2>Ресторан <span lang="en">Seafood</span></h2>
-              <p>Приложение</p>
+              <h2 class="works-list-link-title">Ресторан <span lang="en">Seafood</span></h2>
+              <p class="works-list-link-description">Приложение</p>
             </a>
           </li>
-          <li>
-            <a href="">
-              <img src="./images/portfolio/project-4.jpg" alt="Наушники" width="370" height="294" />
-              <h2>Проект <span lang="en">Prime</span></h2>
-              <p>Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
+          <li class="works-list-item">
+            <a class="works-list-link link" href="">
               <img
+                class="works-list-link-img"
+                src="./images/portfolio/project-4.jpg"
+                alt="Наушники"
+                width="370"
+                height="294"
+              />
+              <h2 class="works-list-link-title">Проект <span lang="en">Prime</span></h2>
+              <p class="works-list-link-description">Маркетинг</p>
+            </a>
+          </li>
+          <li class="works-list-item">
+            <a class="works-list-link link" href="">
+              <img
+                class="works-list-link-img"
                 src="./images/portfolio/project-5.jpg"
                 alt="Две коробки"
                 width="370"
                 height="294"
               />
-              <h2>Проект <span lang="en">Boxes</span></h2>
-              <p>Приложение</p>
+              <h2 class="works-list-link-title">Проект <span lang="en">Boxes</span></h2>
+              <p class="works-list-link-description">Приложение</p>
             </a>
           </li>
-          <li>
-            <a href="">
+          <li class="works-list-item">
+            <a class="works-list-link link" href="">
               <img
+                class="works-list-link-img"
                 src="./images/portfolio/project-6.jpg"
                 alt="Приложение на экране монитора"
                 width="370"
                 height="294"
               />
-              <h2 lang="en">Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <h2 class="works-list-link-title" lang="en">Inspiration has no Borders</h2>
+              <p class="works-list-link-description">Веб-сайт</p>
             </a>
           </li>
-          <li>
-            <a href="">
-              <img src="./images/portfolio/project-7.jpg" alt="Журнал" width="370" height="294" />
-              <h2>Издание <span lang="en">Limited Edition</span></h2>
-              <p>Дизайн</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
-              <img src="./images/portfolio/project-8.jpg" alt="Лейбл" width="370" height="294" />
-              <h2>Проект <span lang="en">LAB</span></h2>
-              <p>Маркетинг</p>
-            </a>
-          </li>
-          <li>
-            <a href="">
+          <li class="works-list-item">
+            <a class="works-list-link link" href="">
               <img
+                class="works-list-link-img"
+                src="./images/portfolio/project-7.jpg"
+                alt="Журнал"
+                width="370"
+                height="294"
+              />
+              <h2 class="works-list-link-title">Издание <span lang="en">Limited Edition</span></h2>
+              <p class="works-list-link-description">Дизайн</p>
+            </a>
+          </li>
+          <li class="works-list-item">
+            <a class="works-list-link link" href="">
+              <img
+                class="works-list-link-img"
+                src="./images/portfolio/project-8.jpg"
+                alt="Лейбл"
+                width="370"
+                height="294"
+              />
+              <h2 class="works-list-link-title">Проект <span lang="en">LAB</span></h2>
+              <p class="works-list-link-description">Маркетинг</p>
+            </a>
+          </li>
+          <li class="works-list-item">
+            <a class="works-list-link link" href="">
+              <img
+                class="works-list-link-img"
                 src="./images/portfolio/project-9.jpg"
                 alt="Человек набирает на клавиатуре ноутбука"
                 width="370"
                 height="294"
               />
-              <h2 lang="en">Growing Business</h2>
-              <p>Приложение</p>
+              <h2 class="works-list-link-title" lang="en">Growing Business</h2>
+              <p class="works-list-link-description">Приложение</p>
             </a>
           </li>
         </ul>
       </section>
     </main>
     <!-- FOOTER -->
-    <footer>
-      <a lang="en" href="./index.html">WebStudio</a>
-      <address>
-        <ul>
-          <li>
+    <footer class="footer">
+      <a class="logo-link link" lang="en" href="./index.html"
+        >Web<span class="footer-logo-decor">Studio</span></a
+      >
+      <address class="address">
+        <ul class="address-contacts-list list">
+          <li class="address-contacts-list-item">
             <a
+              class="address-postal-link link"
               href="https://goo.gl/maps/wizfUWT5925E2VPB9"
               target="_blank"
               rel="noopener noreferrer"
               >г. Киев, пр-т Леси Украинки, 26</a
             >
           </li>
-          <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+          <li class="address-contacts-list-item">
+            <a class="address-mail-link link" href="mailto:info@example.com">info@example.com</a>
           </li>
-          <li>
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
+          <li class="address-contacts-list-item">
+            <a class="address-tel-link link" href="tel:+380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </address>
